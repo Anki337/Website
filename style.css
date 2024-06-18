@@ -3,3 +3,11 @@ body{
     font-size: 1.5em;
 
 }
+
+h1.calculatorTitle{
+    color: green;
+}
+p.titleText{
+    color:red;
+}
+

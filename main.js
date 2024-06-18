@@ -1,18 +1,39 @@
-console.log("This is my first function");
-console.log("This is my second function");
-
 // alert window
 //window.alert("OMG kek");
 
-document.getElementById("MyH1").textContent = "Hello";
-document.getElementById("MyPG").textContent = "Paragraph Hello";
+//Declare variable, unique, back-ticks.
+let age = 34;
+let fullName;
 
-//Declare variable, unique
-let age = 25;
-let price = 10.99;
-let gpa = 2.1;
+console.log(` You are ${age} years old}`)
 
-console.log(` You are ${age} years old`)
-console.log(` And you cost about ${price}$`)
-console.log(` Your penis length is ${gpa}mm`)
+
+document.getElementById("MySubmit").onclick = function(){
+    let firstName = document.getElementById("FirstName").value;
+    let lastName = document.getElementById("LastName").value;
+    let fullName = firstName + " " + lastName;
+    document.getElementById("Header").textContent = `Hello, ${fullName}!`
+}
+
+
+//Function to add
+function add(a, b){
+    return a + b
+}
+
+//Func to subtract
+function subtract(a, b){
+    return a - b
+}
+
+//Func to multiply
+function multiply(a, b){
+    return a * b
+}
+
+//func to divide
+function divide(a, b){
+    return a / b
+}
+
 
