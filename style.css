@@ -4,10 +4,29 @@ body{
 
 }
 
-h1.calculatorTitle{
-    color: green;
+.countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Impact;
+    background-color: burlywood;
+    border-radius: 10px;
 }
-p.titleText{
-    color:red;
+#btnContainer{
+    display: block;
+    text-align: center;
+    background-color: burlywood;
+    font-size: 20px;
+    border-radius: 10px;
 }
-
+#btnContainer button{
+    font-size: medium;
+    border-radius: 3px;
+    background-color: hsl(240, 98%, 78%);
+    
+}
+#btnContainer button:hover{
+    font-size: large;
+    border-radius: 3px;
+    background-color: hsl(240, 100%, 59%);
+}
